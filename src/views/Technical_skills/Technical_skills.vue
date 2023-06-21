@@ -78,7 +78,7 @@
                     <tbody class="">
                         <tr v-for="el in computedList" :key="el.id" class="border-b dark:border-gray-700">
                             <td class="px-4 py-3">{{el.name}}</td>
-                            <td class="px-4 py-3">{{el.skill_icon}}</td>
+                            <td class="px-4 py-3"><img :src="el.skill_icon" alt="Icon"></td>
                             <td class="px-4 py-3 text-[20px]">
                                 <div  class="bg-white  flex justify-end items-center">
                                     <button @click="showModal(el.id)" >
