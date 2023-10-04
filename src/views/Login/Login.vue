@@ -68,7 +68,7 @@
 
 <script setup>
   import {reactive} from 'vue'
-  import { useAuth } from '../../service/auth';
+  import {useAuth} from '../../service/auth';
   import {useRouter} from 'vue-router';
   // import { toast } from 'vue3-toastify';
 
